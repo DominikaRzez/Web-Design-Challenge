@@ -10,8 +10,7 @@ This is the main page containing project summary and links to each visualisation
 <li>data page - displaying a responsive table containing the data used in the visualizations</li>
 </ul>
 <br>
-At the top of every page is a navigation menu. Specific buttons within the navbar allow users to come back to the landing page, open the dropdown with links to each visualisation and redirect to comparison and data pages. What's more the menu is responsive and convert into collapsible navbar when the sreen narrows.
+At the top of every page is a navigation menu. Specific buttons within the navbar allow users to come back to the landing page, open the dropdown with links to each visualisation and redirect to comparison and data pages. Further more the menu is responsive and converts into a collapsible navbar when the screen narrows.
 <br>
-Has the name of the site on the left of the nav which allows users to
-The website was build using html, CSS, bootstrap and media queries to ensure its responviness. 
+The website was build using html, CSS, bootstrap and media queries to ensure its responsiveness. 
 </p>
