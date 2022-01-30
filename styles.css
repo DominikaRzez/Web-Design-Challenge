@@ -1,12 +1,156 @@
-/* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
+/* Giving the body the specified background color*/
 body {
-  background: #f1f1f1;
+  background-color: #f1f1f1!important ;
 }
 
+/* Giving the navbar the specified background color*/
+.navbar{
+  background-color: #fff!important;
+  max-height: 40px;
+  font-size: 15px;
+}
+
+/* Giving the Latitude button at the navbar the specified background color and text color*/
+.navbar-brand{
+  background-color: #26A69A !important; 
+  color: #fff !important;
+  margin-left: 5px !important;
+  padding: 15px 15px 15px 15px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+/*Changing colours of the text links in the dropdown menu*/
+.dropdown-item a{
+  color:#807e7e !important;
+}
+
+/*Creating hover option for the dropdown menu and the navbar elements*/
+.dropdown-menu .dropdown-item:hover, .dropdown-menu .dropdown-item:active{
+  background-color: rgba(221, 221, 221, 0.979);
+}
+.navbar-nav .nav-item:hover, .navbar-nav .nav-item:active{
+  background-color: rgba(221, 221, 221, 0.979);
+}
+
+/* Giving the headers and paragraphs the specified font, size and spacing*/
 h1 {
   font-size: 80px;
+  color: #26A69A !important; 
+  font-family: "Times New Roman", Times, serif !important;
+  font-weight: bold !important;
+}
+h3{
+  color: #26A69A !important; 
+  font-family: "Times New Roman", Times, serif !important;
+  font-weight: bold !important;
+  text-align: center; 
+}
+p.big {
+  line-height: 1.8;
+  color: #807e7e;
 }
 
-h3 {
-  font-size: 30px;
+.border{
+  border: 15px;
+  color: #26A69A !important;
+}
+
+/*Adding styling to the summary container and the visualisation images box*/
+.summary, .main-container {
+	background-color: white;
+  margin-top: 40px;
+	margin-bottom: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+	padding: 10px 30px 40px;
+}
+.comparison-container{
+  background-color: white;
+  margin-top: 40px;
+	margin-bottom: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+	padding: 10px 30px 40px; 
+}
+.visualisations {
+	background-color: white;
+  margin-top: 40px;
+	margin-bottom: 20px;
+	padding: 10px 30px 40px;
+}
+
+/* Specifying images sizes and margins*/
+.summary img{
+  width:350px;
+  height: 225px;
+}
+.vis-images{
+  margin-left: 5px !important;
+  margin-right: 5px !important;
+}
+.vis-images img{
+  width: 150px;
+  height: 150px;
+}
+.main-container img{
+  width:450px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.comparison-container img{
+  width:350px;
+  height: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+}
+/*Creating media queries, adjusting image sizes for big screen*/
+@media(max-width: 1000px){
+  .vis-images img{
+    width: 150px;
+    height: 150px;
+  }
+  .comparison-container img{
+    width:250px;
+    height:150px;
+  }
+}
+
+/*Creating media queries for small screens*/
+@media(max-width: 770px){
+  /*Adjusting navbars colour, size, styling*/
+  .navbar-expand-md{
+    background-color: #26A69A!important;
+  }
+  .navbar{
+    max-height: none;
+    padding: inherit; 
+  }
+  .navbar div{
+    background-color: white !important;
+    margin: 10px -20px -20px -20px; 
+    padding: 10px 50px 10px 50px;
+  }
+  /*Adjusting image sizes*/
+  .vis-images img{
+    width: 100px;
+    height: 100px;
+    margin:none;
+  }
+  .summary img{
+    width:300px;
+    height: 200px;
+  }
+  .main-container img{
+    width:350px;
+    height: 200px;
+  }
 }
