@@ -7,7 +7,7 @@ This is the main page containing project summary and links to each visualisation
 <li>landing page</li>
 <li>4 visualisation pages</li>
 <li>comparison page - storing all of the visualisations</li>
-<li>data page - displays a responsive table containing the data used in the visualizations</li>
+<li>data page - displaying a responsive table containing the data used in the visualizations</li>
 </ul>
 <br>
 At the top of every page is a navigation menu. Specific buttons within the navbar allow user to come back to the landing page, open the dropdown with links to each visualisation,
