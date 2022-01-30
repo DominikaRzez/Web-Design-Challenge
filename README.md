@@ -1,6 +1,6 @@
 <h1>Web-Design-Challenge</h1>
 <p>The following repository contains the visualization dashboard website of the weather data.
-The landing page can be found <a href="https://dominikarzez.github.io/Web-Design-Challenge/landing_page.html"><strong>here<strong><a/>. 
+The landing page can be found <a href="https://dominikarzez.github.io/Web-Design-Challenge/landing_page.html"><strong>here</strong></a>. 
 This the main page containing project summary and links to each visualisation page.
 <br>
 <ul>The website consists 7 pages:
